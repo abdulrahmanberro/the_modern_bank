@@ -13,7 +13,7 @@ const Footer = () => {
         color: textColor,
       }}
     >
-      <div className="text-[18px] md:text-[16px] mb-10 flex md:flex-row flex-col justify-between items-center text-center md:text-left">
+      <div className="text-[18px] md:text-[16px] mb-10 flex md:flex-row flex-col justify-between md:items-start items-center text-center md:text-left">
         <div>
           <img src={logo} alt="logo" />
           <p className={` max-w-[312px] mt-8 mb-10 md:mb-0`}>
