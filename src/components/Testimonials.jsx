@@ -39,7 +39,7 @@ const Testimonials = () => {
             <div
               style={{
                 height: "50%",
-                left: "50%",
+                left: "20%",
                 background: "linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%)",
                 filter: "blur(450px)",
                 borderRadius: "200px",

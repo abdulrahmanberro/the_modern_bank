@@ -18,7 +18,7 @@ const Billing = () => {
             filter: "blur(375px)",
             transform: "rotate(176.62deg)",
           }}
-          className="sm:w-[405px] sm:h-[471px] h-[360px] w-[360px]"
+          className="sm:w-[405px] sm:h-[471px] h-[260px] w-[260px]"
         />
         <div
           style={{
