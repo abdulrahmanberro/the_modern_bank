@@ -46,8 +46,16 @@ const Billing = () => {
           placerat.
         </p>
         <div className="flex flex-row  mt-10 sm:justify-start justify-start">
-          <img src={apple} alt="app_store" className="mr-5 cursor-pointer" />
-          <img src={google} alt="play_store" className="cursor-pointer" />
+          <img
+            src={apple}
+            alt="app_store"
+            className="mr-5 cursor-pointer md:w-[100%] w-[120px]"
+          />
+          <img
+            src={google}
+            alt="play_store"
+            className="cursor-pointer md:w-[100%] w-[120px]"
+          />
         </div>
       </div>
     </section>

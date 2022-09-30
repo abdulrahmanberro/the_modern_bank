@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-row justify-between items-center w-full text-white">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] ss:leading-[100px]">
             The Next <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Generation</span>
             <br className="sm:block hidden" />
