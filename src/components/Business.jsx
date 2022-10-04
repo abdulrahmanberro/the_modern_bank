@@ -25,7 +25,7 @@ const Business = () => {
       <div className={`#r flex-2`}>
         {features.map((feature, i) => (
           <div
-            className="flex flex-rwo items-center feature-card rounded-[10px]"
+            className={`flex flex-rwo items-center rounded-[10px]`}
             i={i}
             key={feature.id}
           >

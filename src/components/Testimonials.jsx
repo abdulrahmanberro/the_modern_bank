@@ -9,7 +9,7 @@ const Testimonials = () => {
     <section className={`${styles.paddingY}`}>
       <div className="flex flex-col md:flex-row text-white items-center justify-between font-poppins">
         {feedback.map((feedback) => (
-          <div className="flex flex-col relative feature-card py-14  px-7 rounded-[20px]">
+          <div className="flex flex-col relative py-14  px-7 rounded-[20px]">
             <img
               src={clinetsCardIcon}
               className="w-[42.6px] h-[27.6px] mb-10"
@@ -45,7 +45,7 @@ const Testimonials = () => {
                 borderRadius: "200px",
                 transform: "rotate(94.82deg)",
               }}
-              className="md:block hidden absolute sm:w-[270px] w-[190px]"
+              className="absolute sm:w-[270px] w-[190px]"
             />
           </div>
         ))}
