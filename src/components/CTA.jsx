@@ -5,7 +5,7 @@ import Button from "./Button";
 const CTA = () => {
   return (
     <section className={`${styles.paddingY} text-white `}>
-      <div className="flex md:flex-row flex-col w-full relative bg-black-gradient-2 p-20 rounded-[20px]">
+      <div className="flex md:flex-row flex-col w-full relative bg-black-gradient p-20 rounded-[20px]">
         <div className="flex flex-col">
           <h2 className={`md:text-[44px] text-[35px] font-semibold`}>
             Let's try our service now!
