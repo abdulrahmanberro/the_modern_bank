@@ -27,7 +27,6 @@ const App = () => (
         <Hero />
       </div>
     </div>
-
     <div className={` ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
@@ -45,5 +44,3 @@ const App = () => (
 );
 
 export default App;
-
-// STOPPED AT 22:15

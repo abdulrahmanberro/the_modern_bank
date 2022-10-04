@@ -18,7 +18,7 @@ const Billing = () => {
             filter: "blur(375px)",
             transform: "rotate(176.62deg)",
           }}
-          className="sm:w-[405px] sm:h-[471px] h-[260px] w-[260px]"
+          className="sm:w-[405px] md:block hidden sm:h-[471px] h-[260px] w-[260px]"
         />
         <div
           style={{
@@ -30,7 +30,7 @@ const Billing = () => {
             borderRadius: "200px",
             transform: "rotate(156.61deg)",
           }}
-          className="sm:w-[345px] w-[360px]"
+          className="sm:w-[345px] md:block hidden w-[360px]"
         />
         <img src={bill} alt="billing" className="sm:w-[700px] w-[500px]" />
       </div>

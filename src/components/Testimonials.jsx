@@ -34,7 +34,7 @@ const Testimonials = () => {
                 borderRadius: "200px",
                 transform: "rotate(47.46deg)",
               }}
-              className="absolute sm:w-[370px] w-[210.52px]"
+              className="absolute sm:w-[370px] md:block hidden w-[210.52px]"
             />
             <div
               style={{
@@ -45,7 +45,7 @@ const Testimonials = () => {
                 borderRadius: "200px",
                 transform: "rotate(94.82deg)",
               }}
-              className="absolute sm:w-[270px] w-[190px]"
+              className="md:block hidden absolute sm:w-[270px] w-[190px]"
             />
           </div>
         ))}
